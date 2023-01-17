@@ -43,3 +43,19 @@ for(let i = hacker1.length -1; i >=0; i-- ){
   }
 console.log(cadena)
 
+// ------BONUS-------
+
+let longText = "Aliquip esse dolor id dolore nisi aliqua dolore cillum aute. Velit incididunt aliqua duis nisi aute. Sit ipsum elit eiusmod aliqua eiusmod anim laborum sunt";
+// console.log(longText.split(" "));
+
+let count = 0;
+
+for (let i = 0; i < longText.length; i++){
+  const charter = longText[i] + longText[i+1];
+  console.log(charter)
+
+  if ( charter === "es"){
+    count++;
+  }
+ }
+
